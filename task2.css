@@ -1,0 +1,312 @@
+nav {
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    display: inline-block;
+    align-items: center;
+    margin: 10px 50px;
+
+
+}
+
+.quickorder {
+    border: 1px solid black;
+    margin-top: 30px;
+    height: 40px;
+    width: 89%;
+    margin-left: 6pc;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(128, 128, 128, 0.18);
+
+}
+
+.quickorder h4 {
+    margin-left: 5px;
+    margin-top: 8px;
+    color: black;
+}
+
+.quickorder h4 button {
+    float: right;
+    margin-top: -8px;
+    padding: 11px;
+}
+
+#para {
+    margin-left: 6pc;
+    margin-top: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+}
+.CopyandPaste {
+    border: 2px solid transparent;
+    margin-top: 30px;
+    width: 55vh;
+    height: 73vh;
+    float: left;
+    margin-left: 20px;
+    background-color: rgba(211, 211, 211, 0.705);
+}
+
+#container {
+    width: 100%;
+    
+}
+
+.linebyline .CopyandPaste {
+    float: left;
+}
+
+.linebyline {
+    border: 2px solid transparent;
+    margin-top: 30px;
+    width: 55vh;
+    height: 73vh;
+    float: left;
+    background-color: rgba(211, 211, 211, 0.705);
+}
+
+.linebyline p {
+    margin-left: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+}
+
+.linebyline h4 {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10px;
+}
+
+#qa {
+    width: 23px;
+    height: 1pc;
+    margin-left: 10px;
+    padding: 6px;
+    padding-right: 14px;
+}
+
+#part {
+    width: 23px;
+    height: 1pc;
+    padding: 6px;
+    padding-right: 10pc;
+}
+
+#grade {
+    width: 39px;
+    height: 1pc;
+    padding: 6px;
+    padding-right: 4px;
+    margin-top: 15px;
+}
+
+.linebyline button {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 7px 16px;
+    color: #468;
+    border: 2px solid #468;
+    border-radius: 5px;
+}
+
+.CopyandPaste p {
+    margin-left: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+
+}
+
+.CopyandPaste h4 {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10px;
+}
+
+.box {
+    border: 2px solid white;
+    width: 18pc;
+    height: 15pc;
+    margin-left: 12px;
+    background-color: white;
+}
+
+.box p {
+    color: lightgray;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.box .p1 {
+    margin: 0px;
+    margin-left: 14px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Uploadfile {
+    border: 2px solid transparent;
+    margin-top: 30px;
+    width: 55vh;
+    height: 73vh;
+    float: left;
+    margin-left: 20px;
+    background-color: rgba(211, 211, 211, 0.705);
+}
+
+.Uploadfile h4 {
+    margin-left: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Uploadfile p {
+    margin-left: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Uploadfile button {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 7px 3pc;
+    color: #468;
+    border: 2px solid #468;
+    border-radius: 5px;
+}
+
+ #addcart button {
+    margin-top: 3pc;
+    float: right;
+    margin-right: 3pc;
+    margin-left: 10px;
+    padding: 7px 3pc;
+    color: #468;
+    border: 2px solid #468;
+    border-radius: 5px;
+   
+    margin-bottom: 20px;
+    
+}
+hr{
+    margin-right: 30px;
+}
+#a1{
+    float: right;
+    padding-right: 14px;
+    color: #468;
+    
+}
+.im1{
+   margin-left: 7.5pc;
+}
+.share{
+    float: right;
+    margin-right: 30px;
+}
+.cart h4{
+    margin-left: 7pc;
+    margin-top: 3pc;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bi{
+ margin-left: 52pc;
+ 
+}
+.a2,.a3{
+    margin-left: 3px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bl{
+    margin-left: 3px;
+}
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 6pc;
+  }
+  
+  tr {
+    border-bottom: 1px solid #ddd;
+  }
+  th{
+    text-align: left;
+
+  }
+  .tb1{
+    float: left;
+    margin-top: 5px;
+    margin-left: 12px;
+ }
+ .p1{
+    float: left;
+ }
+ .subtotal{
+    height: 17pc;
+    width: 25pc;
+    border: 2px solid transparent;
+    background-color: rgba(128, 128, 128, 0.363);
+    margin-top: 2pc;
+    float: right;
+    margin-right: 3pc;
+
+ }
+ .sub{
+    justify-content: space-around;
+    display: flex;
+    margin-top: 3pc;
+    font-family: 'Open Sans', sans-serif;
+    
+ }
+ .a{
+    margin-left: 4pc;
+ }
+ .Total{
+    display: flex;
+    margin-left: 4pc;
+    justify-content: space-between;
+    width: 69%;
+    font-family: 'Open Sans', sans-serif;
+    
+ }
+ .promo{
+    margin-left: 4pc;
+
+ }
+ .epc{
+    width: 45%;
+    padding: 10px 10px;
+    margin-left: 4pc;
+    font-family: 'Open Sans', sans-serif;
+ }
+ .EPC button{
+    padding: 10px 30px;
+    color: #468;
+    border: 2px solid #468;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+ }
+ .check{
+    width: 25pc;
+    height: 400px;
+    background-color:white;
+    float: right;
+    margin-top: 50px;
+ 
+ }
+ .c1{
+    width: 100%;
+    background-color: yellow;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+ }
+.c1:hover{
+    outline:2px solid blue;
+}
+ 
+ 

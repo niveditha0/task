@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li>PRODUCTS</li>
+            <li>INDUSTRIES</li>
+            <li>SERVCES</li>
+            <li>RESOURCES</li>
+            <li>SUPPORT</li>
+            <li>ABOUT US</li>
+        </ul>
+
+    </nav>
+    <div class="quickorder">
+        <h4>Quick Order<button onclick="myFunction()">^</button></h4>
+    </div>
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("container");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+    <div id="container">
+        <div id="para">
+            <p><b>would be nice to have some discription that users can use either line by line,copy paste or upload
+                    file.</b>Lorem ipsum dolor sit amet,consectetur adipiscing elit,sed do<br>eiusmod tempor incididunt
+                ut
+                labore et dolore magna aliqua ad minim veniam,quis nostrud exercitation ullamco laborois nisi ut aliquip
+                ex
+                ea commodo conseqat
+            </p>
+
+            <div class="linebyline">
+                <h4>Line by Line</h4>
+                <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit,sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua ad minim veniam,quis nostrud exercitation ullamco laborois nisi ut
+                    aliquip
+                    ex
+                    ea commodo conseqat</p>
+                <input type="text" id="qa" name="qa" placeholder="Qty">
+                <input type="text" id="part" name="pa" placeholder="part">
+                <input type="text" id="grade" name="ga" placeholder="grade">
+                <input type="text" id="qa" name="qa" placeholder="Qty">
+                <input type="text" id="part" name="pa" placeholder="part">
+                <input type="text" id="grade" name="ga" placeholder="grade">
+                <input type="text" id="qa" name="qa" placeholder="Qty">
+                <input type="text" id="part" name="pa" placeholder="part">
+                <input type="text" id="grade" name="ga" placeholder="grade">
+                <input type="text" id="qa" name="qa" placeholder="Qty">
+                <input type="text" id="part" name="pa" placeholder="part">
+                <input type="text" id="grade" name="ga" placeholder="grade">
+                <input type="text" id="qa" name="qa" placeholder="Qty">
+                <input type="text" id="part" name="pa" placeholder="part">
+                <input type="text" id="grade" name="ga" placeholder="grade">
+                <button>+Add another Line</button>
+
+            </div>
+
+            <div class="CopyandPaste">
+                <h4>Copy and Paste</h4>
+                <p>copy and paste the item number and quantity separated by a comma,Make sure each new item number and
+                    quantity is on a separate line and in the following format</p>
+                <div class="box">
+                    <p>Qty,part #,grade<br>Qty,part #,grade</p>
+
+                </div>
+            </div>
+            <div class="Uploadfile">
+                <h4>Upload a file <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp48YmmJAGzz63JshUtX0Sy4crBW8qktDXj5i-PTzpxdYIAM9EeJJo_JuV9sIWkSnTaGU&usqp=CAU"
+                        height="20px" width="20px" class="im1"><a href="#" id="a1">Download csv</a></h4>
+
+                <p>choose a csv file to import</p>
+                <button style="border: 2px solid #468;">select file</button>
+            </div>
+            <div id="addcart"> <button>Add to Cart </button>
+                <hr size="2" width="89%" color="grey">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="cart">
+        <h4>Cart<svg xmlns="http://www.w3.org/2000/svg" width="16" height="11" fill="navy" class="bi bi-share"
+                viewBox="0 0 16 16">
+                <path
+                    d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+            </svg><a href="#" class="a2" style="color: #468;">share |</a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="11" fill="navy" class="bl bi-heart"
+                viewBox="0 0 16 16">
+                <path
+                    d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+            </svg><a href="#" class="a3" style="color: #468;">save cart</a>
+        </h4>
+    </div>
+
+
+
+    <table>
+        <tr>
+            <th>Description</th>
+            <th>Catlog Number</th>
+            <th>Stock Status</th>
+            <th>Qty</th>
+            <th>Estimated<br>
+                Delivery Date
+            </th>
+            <th>Price</th>
+            <th>Total</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>
+                <div class="Mill"><img src="https://s7d2.scene7.com/is/image/Kennametal/100146973?$PRODUCT-MAIN-IMAGE$"
+                        height="40px" width="40px" style="float: left;">
+                    <div class="tb1"> <a href="#" style="color: #468;">Mill 4<sup>TM</sup>-12KT-Shell<br>Mill.Coarse
+                            Pitch</a></div>
+
+            <td>KT4D050Z04S22LN12</td>
+            <td>1160179</td>
+            <td><button>4</button></td>
+            <td><img src="https://img.icons8.com/?size=2x&id=sz8cPVwzLrMP&format=png" height="15px" width="15px"
+                    style="float: left;">
+                <div class="tb2">in Stock</div>
+            </td>
+            <td>$6,768.92<em>/each</em></td>
+            <td>$6,768.92</td>
+            <td style="color: #468;">
+                <h3>Remove</h3>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                <div class="Mill"><img src="https://s7d2.scene7.com/is/image/Kennametal/100146973?$PRODUCT-MAIN-IMAGE$"
+                        height="40px" width="40px" style="float: left;">
+                    <div class="tb1"> <a href="#" style="color: #468;">Mill 4<sup>TM</sup>-12KT-Shell<br>Mill.Coarse
+                            Pitch</a></div>
+
+            <td>KT4D050Z04S22LN12</td>
+            <td>1160179</td>
+            <td><button>4</button></td>
+            <td><img src="https://cdn.pixabay.com/photo/2017/03/28/01/42/attention-2180765_1280.png" height="16px"
+                    width="16px" style="float: left;">
+                <div class="tb2">Not Availability</div>
+                <a href="#">Check availability</a>
+            </td>
+            <td>$6,768.92<em>/each</em></td>
+            <td>$6,768.92</td>
+            <td style="color: #468;">
+                <h3>Remove</h3>
+            </td>
+        </tr>
+    </table>
+    <div class="con1">
+        <div class="subtotal">
+            <div class="sub">
+                <b>Subtotal</b>
+                <span>$12,618.92</span>
+            </div>
+            <div class="a">
+                (include customer discount)
+                <hr>
+            </div>
+            <div class="Total">
+                <b>Total</b>
+                <span>$12,618.92</span>
+            </div>
+            <div class="promo">
+                <h2 style="font-family: 'Open Sans', sans-serif;">Promo Code Or Vocher</h2>
+
+            </div>
+            <div class="EPC">
+                <input class="epc" type="text" name="code" id="code" placeholder="Enter Promo Code Or Vocher">
+                <button style="font-family: 'Open Sans', sans-serif;">apply</button>
+            </div>
+            <div class="check">
+                <button class="c1" style="font-family: 'Open Sans', sans-serif;">Checkout</button>
+            </div>
+        </div>
+    
+    </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>
